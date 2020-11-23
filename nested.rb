@@ -60,7 +60,7 @@ def dennis_ritchies_language
      }
 
 		 known_languages = programmer_hash[:dennis_ritchie]
-		 known_languages[:languages]
+		 known_languages[:languages].join
 end
 
 def adding_matz
