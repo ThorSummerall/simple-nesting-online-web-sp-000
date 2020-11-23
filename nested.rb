@@ -110,6 +110,7 @@ def changing_alan
      alans_new_info = "GUI"
 		 reaching_known_for = programmer_hash[:alan_kay]
 		 reaching_known_for[:known_for] = alans_new_info
+		 return programmer_hash
 
 end
 
